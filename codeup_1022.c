@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 int main(void) {
-    int a,b;
-    scanf("%d-%d",&a,&b);
-    printf("%06d%07d",a,b);
-   
+    char data[51];
+    scanf("%s",&data);
+    printf("%s",data);
    
     return 0;
-    
 }
